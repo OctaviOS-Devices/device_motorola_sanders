@@ -1,8 +1,20 @@
 [
   {
     "remote": "github",
+    "repository": "OctaviOS-Devices/vendor_motorola_sanders",
+    "target_path": "vendor/motorola/sanders",
+    "branch": "11"
+  },
+  {
+    "remote": "github",
+    "repository": "OctaviOS-Devices/kernel_motorola_sanders",
+    "target_path": "kernel/motorola/msm8953",
+    "branch": "11"
+  },
+  {
+    "remote": "github",
     "repository": "ArrowOS/android_hardware_qcom_wlan",
-    "target_path": "hardware/qcom-caf/wlan"
+    "target_path": "hardware/qcom-caf/wlan",
     "branch": "arrow-11.0-caf"
   },
   {
