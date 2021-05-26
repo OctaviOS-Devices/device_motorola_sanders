@@ -22,5 +22,11 @@
     "repository": "LineageOS/android_system_qcom",
     "target_path": "system/qcom",
     "branch": "lineage-18.1"
+  },
+  {
+    "remote": "github",
+    "repository": "ElectroPerf/vendor_oplauncher",
+    "target_path": "vendor/oplauncher",
+    "branch": "11"
   }
 ]

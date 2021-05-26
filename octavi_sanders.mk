@@ -28,6 +28,9 @@ $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
 # Inherit some common OctaviOs stuff.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
+# Inherit oplauncher (if exists).
+$(call inherit-product-if-exists, vendor/oplauncher/OPLauncher.mk)
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
