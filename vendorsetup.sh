@@ -16,11 +16,3 @@
 
 # ABI CHECK
 export SKIP_ABI_CHECKS=true
-
-# Remove
-rm -rf hardware/qcom-caf/wlan
-rm -rf system/qcom
-
-# Clone
-git clone https://github.com/ArrowOS/android_hardware_qcom_wlan -b arrow-11.0-caf hardware/qcom-caf/wlan
-git clone https://github.com/LineageOS/android_system_qcom system/qcom
